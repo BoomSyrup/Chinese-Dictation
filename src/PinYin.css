@@ -1,20 +1,33 @@
-.matrix {
-    color: #69110a
+html,body {
+    width: 100%
 }
-table, th, td{
-    border: 1px solid black;
-    border-spacing: 10px;
+
+thead, thead th{
+    border: 3px solid #69110a;
 }
 
 th,td {
-    padding: 0.5em;
     font-size: 0.5em;
     color: black;
     font-weight: normal;
+    border: 1px solid #69110a;
+    border-spacing: 10px;
+    width: 40px;
+    font-size: calc(10px + 0.75vmin)  
 }
 
-table{
+td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+
+table {
+     -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    display: block;
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 .header {
@@ -24,4 +37,12 @@ table{
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #69110a
+}
+
+.topHalf {
+    float: left;
+}
+
+.character {
+    padding: 2.5px 2.5px 2.5px 2.5px;
 }
