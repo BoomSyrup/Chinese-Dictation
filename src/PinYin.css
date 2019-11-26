@@ -7,13 +7,15 @@ thead, thead th{
 }
 
 th,td {
-    font-size: 0.5em;
     color: black;
     font-weight: normal;
     border: 1px solid #69110a;
-    border-spacing: 10px;
-    width: 40px;
-    font-size: calc(10px + 0.75vmin)  
+    font-size: calc(10px + 0.5vmin);  
+    width: 50px;
+}
+
+tr:not(#defRow) > th {
+    height: 40px;
 }
 
 td { 
@@ -23,7 +25,6 @@ td {
 }
 
 table {
-     -webkit-overflow-scrolling: touch;
     overflow-x: auto;
     display: block;
     border-collapse: collapse;
@@ -39,10 +40,12 @@ table {
     color: #69110a
 }
 
-.topHalf {
-    float: left;
+.tones {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.character {
-    padding: 2.5px 2.5px 2.5px 2.5px;
+.character1 .character2 .character3 .character4 {
+    padding: 5px;
 }
