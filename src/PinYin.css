@@ -15,11 +15,12 @@ th,td {
 }
 
 tr > th {
-    height: 50px;
+    height: 40px;
+    width: 90px;
 }
 
 .start{
-    width: 55px;
+    width: 40px;
 }
 .start, .letter_head > th {
     font-size: calc(10px + 2vmin);
@@ -51,7 +52,16 @@ table {
 
 .toneGrid {
     display: grid;
-    grid-template-columns: 60px 60px;
+    grid-template-columns: 50px 50px;
+}
+
+.toneGridBig {
+    display: grid;
+    grid-template-columns: 70px 70px;
+}
+.toneGridXL {
+    display: grid;
+    grid-template-columns: 75px 75px;
 }
 
 .character {
@@ -71,9 +81,13 @@ table {
 .group_menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 6vh;
+    margin-top: 2vh;
 }
 
 .blank_button{
     visibility: hidden;
+}
+
+#lastButton {
+    margin-bottom: 0px;
 }
