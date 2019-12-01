@@ -6,10 +6,29 @@ class Table1 extends React.Component {
         return (
             <table>
                 <thead>
-                    <tr class="letterHead">
+                    <tr class="letter_head">
                         <th class="start"></th><th>a</th><th>o</th><th>e</th><th>-i</th><th>er</th><th>ai</th><th>ei</th><th>ao</th><th>ou</th><th>an</th><th>en</th><th>ang</th><th>eng</th><th>ong</th>
                     </tr> 
                 </thead>
+                    <tr>
+                        <th class="start"> </th>
+                        <th>
+                            <div class="toneGrid">
+                                <div class="character"> ā </div>
+                                <div class="character"> á </div>
+                                <div class="character"> ă </div>
+                                <div class="character"> à </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="toneGrid">
+                                <div class="character"> ō </div>
+                                <div class="character"> ó </div>
+                                <div class="character"> ŏ </div>
+                                <div class="character"> ò </div>
+                            </div>
+                        </th>                        
+                    </tr>
                     <tr>
                         <th class="start">b</th>
                         <th>
@@ -28,7 +47,9 @@ class Table1 extends React.Component {
                                 <div class="character"> bò </div>
                             </div>
                         </th>
-                        <th> <div class="blank"> </div></th><th> <div class="blank"> </div></th><th> <div class="blank"> </div></th>                        
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>                        
                         <th>
                             <div class="toneGrid">
                                 <div class="character"> bāi </div>
@@ -106,7 +127,9 @@ class Table1 extends React.Component {
                                 <div class="character"> pò </div>
                             </div>
                         </th>
-                        <th> <div class="blank"> </div></th><th> <div class="blank"> </div></th><th> <div class="blank"> </div></th>                        
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>                        
                         <th>
                             <div class="toneGrid">
                                 <div class="character"> pāi </div>
@@ -199,7 +222,8 @@ class Table1 extends React.Component {
                                 <div class="character"> mè </div>
                             </div>
                         </th>
-                        <th> <div class="blank"> </div></th><th> <div class="blank"> </div></th>                        
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>                        
                         <th>
                             <div class="toneGrid">
                                 <div class="character"> māi </div>
@@ -284,7 +308,10 @@ class Table1 extends React.Component {
                                 <div class="character"> fò </div>
                             </div>
                         </th>
-                        <th> <div class="blank"> </div></th><th> <div class="blank"> </div></th><th> <div class="blank"> </div></th><th> <div class="blank"> </div></th>                        
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>
+                        <th> <div class="blank"> </div></th>                        
                         <th>
                             <div class="toneGrid">
                                 <div class="character"> fēi </div>

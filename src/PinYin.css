@@ -21,7 +21,7 @@ tr > th {
 .start{
     width: 55px;
 }
-.start, .letterHead > th {
+.start, .letter_head > th {
     font-size: calc(10px + 2vmin);
     font-weight: bold;
 }
@@ -66,4 +66,14 @@ table {
 
 .character:hover {
     background: rgba(248, 148, 6, 0.3);
+}
+
+.group_menu > div {
+    float: left;
+    display: grid;
+    margin-top: 6vh;
+}
+
+.blank_button{
+    visibility: hidden;
 }
