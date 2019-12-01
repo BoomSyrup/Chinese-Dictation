@@ -68,9 +68,9 @@ table {
     background: rgba(248, 148, 6, 0.3);
 }
 
-.group_menu > div {
-    float: left;
+.group_menu {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 6vh;
 }
 
