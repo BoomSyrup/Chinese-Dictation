@@ -70,10 +70,10 @@ class Table13 extends React.Component {
                     </th> 
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> jīang </div>
-                            <div class="character"> jíang </div>
-                            <div class="character"> jǐang </div>
-                            <div class="character"> jìang </div>
+                            <div class="character"> jiāng </div>
+                            <div class="character"> jiáng </div>
+                            <div class="character"> jiǎng </div>
+                            <div class="character"> jiàng </div>
                         </div>
                     </th> 
                     <th>
@@ -153,10 +153,10 @@ class Table13 extends React.Component {
                     </th> 
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> qīang </div>
-                            <div class="character"> qíang </div>
-                            <div class="character"> qǐang </div>
-                            <div class="character"> qìang </div>
+                            <div class="character"> qiāng </div>
+                            <div class="character"> qiáng </div>
+                            <div class="character"> qiǎng </div>
+                            <div class="character"> qiàng </div>
                         </div>
                     </th> 
                     <th>
@@ -236,10 +236,10 @@ class Table13 extends React.Component {
                     </th> 
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> xīang </div>
-                            <div class="character"> xíang </div>
-                            <div class="character"> xǐang </div>
-                            <div class="character"> xìang </div>
+                            <div class="character"> xiāng </div>
+                            <div class="character"> xiáng </div>
+                            <div class="character"> xiǎng </div>
+                            <div class="character"> xiàng </div>
                         </div>
                     </th> 
                     <th>
