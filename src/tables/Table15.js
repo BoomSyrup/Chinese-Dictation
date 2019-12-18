@@ -1,7 +1,8 @@
 import React from 'react';
 import '../PinYin.css';
+import PinYin from '../PinYin';
 
-class Table15 extends React.Component {
+class Table15 extends PinYin {
     render() {
         return (
             <table>

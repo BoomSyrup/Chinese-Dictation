@@ -18,7 +18,7 @@ import Table16 from './tables/Table16.js';
 import './PinYin.css';
 import './css/pushy-buttons.css'
 
-class PinYin extends React.Component{
+class PinYin extends React.Component {
     constructor(props) {
         super(props);
         this.state = { renderGroup: 1 };
@@ -29,6 +29,12 @@ class PinYin extends React.Component{
         this.setState(state => ({
             renderGroup: num
         }));
+    }
+
+    playAudio(thing) {
+        //const poop = new Audio('../audio/'+ thing +'.ogg');
+        //poop.play();
+        console.log(thing )
     }
 
     toRender(param) {

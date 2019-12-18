@@ -1,7 +1,8 @@
 import React from 'react';
 import '../PinYin.css';
+import PinYin from '../PinYin';
 
-class Table2 extends React.Component {
+class Table2 extends PinYin {
     render() {
         return (
             <table>
@@ -14,82 +15,82 @@ class Table2 extends React.Component {
                     <th class="start"></th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> yī </div>
-                            <div class="character"> yí </div>
-                            <div class="character"> yǐ </div>
-                            <div class="character"> yì </div>
+                            <div class="character" onClick={() => this.playAudio('yī')}> yī </div>
+                            <div class="character" onClick={() => this.playAudio('yí')}> yí </div>
+                            <div class="character" onClick={() => this.playAudio('yǐ')}> yǐ </div>
+                            <div class="character" onClick={() => this.playAudio('yì')}> yì </div>
                         </div>
                     </th>                        
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> yā </div>
-                            <div class="character"> yá </div>
-                            <div class="character"> yǎ </div>
-                            <div class="character"> yà </div>
+                            <div class="character" onClick={() => this.playAudio('yā')}> yā </div>
+                            <div class="character" onClick={() => this.playAudio('yá')}> yá </div>
+                            <div class="character" onClick={() => this.playAudio('yǎ')}> yǎ </div>
+                            <div class="character" onClick={() => this.playAudio('yà')}> yà </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> yāo </div>
-                            <div class="character"> yáo </div>
-                            <div class="character"> yǎo </div>
-                            <div class="character"> yào </div>
+                            <div class="character" onClick={() => this.playAudio('yāo')}> yāo </div>
+                            <div class="character" onClick={() => this.playAudio('yáo')}> yáo </div>
+                            <div class="character" onClick={() => this.playAudio('yǎo')}> yǎo </div>
+                            <div class="character" onClick={() => this.playAudio('yào')}> yào </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> yē </div>
-                            <div class="character"> yé </div>
-                            <div class="character"> yě </div>
-                            <div class="character"> yè </div>
+                            <div class="character" onClick={() => this.playAudio('yē')}> yē </div>
+                            <div class="character" onClick={() => this.playAudio('yé')}> yé </div>
+                            <div class="character" onClick={() => this.playAudio('yě')}> yě </div>
+                            <div class="character" onClick={() => this.playAudio('yè')}> yè </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> yōu </div>
-                            <div class="character"> yóu </div>
-                            <div class="character"> yǒu </div>
-                            <div class="character"> yòu </div>
+                            <div class="character" onClick={() => this.playAudio('yōu')}> yōu </div>
+                            <div class="character" onClick={() => this.playAudio('yóu')}> yóu </div>
+                            <div class="character" onClick={() => this.playAudio('yǒu')}> yǒu </div>
+                            <div class="character" onClick={() => this.playAudio('yòu')}> yòu </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> yān </div>
-                            <div class="character"> yán </div>
-                            <div class="character"> yǎn </div>
-                            <div class="character"> yàn </div>
+                            <div class="character" onClick={() => this.playAudio('yān')}> yān </div>
+                            <div class="character" onClick={() => this.playAudio('yán')}> yán </div>
+                            <div class="character" onClick={() => this.playAudio('yǎn')}> yǎn </div>
+                            <div class="character" onClick={() => this.playAudio('yàn')}> yàn </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> yīn </div>
-                            <div class="character"> yín </div>
-                            <div class="character"> yǐn </div>
-                            <div class="character"> yìn </div>
+                            <div class="character" onClick={() => this.playAudio('yīn')}> yīn </div>
+                            <div class="character" onClick={() => this.playAudio('yín')}> yín </div>
+                            <div class="character" onClick={() => this.playAudio('yǐn')}> yǐn </div>
+                            <div class="character" onClick={() => this.playAudio('yìn')}> yìn </div>
                         </div>
                     </th> 
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> yāng </div>
-                            <div class="character"> yáng </div>
-                            <div class="character"> yǎng </div>
-                            <div class="character"> yàng </div>
+                            <div class="character" onClick={() => this.playAudio('yāng')}> yāng </div>
+                            <div class="character" onClick={() => this.playAudio('yáng')}> yáng </div>
+                            <div class="character" onClick={() => this.playAudio('yǎng')}> yǎng </div>
+                            <div class="character" onClick={() => this.playAudio('yàng')}> yàng </div>
                         </div>
                     </th>  
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> yīng </div>
-                            <div class="character"> yíng </div>
-                            <div class="character"> yǐng </div>
-                            <div class="character"> yìng </div>
+                            <div class="character" onClick={() => this.playAudio('yīng')}> yīng </div>
+                            <div class="character" onClick={() => this.playAudio('yíng')}> yíng </div>
+                            <div class="character" onClick={() => this.playAudio('yǐng')}> yǐng </div>
+                            <div class="character" onClick={() => this.playAudio('yìng')}> yìng </div>
                         </div>
                     </th>  
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> yōng </div>
-                            <div class="character"> yóng </div>
-                            <div class="character"> yǒng </div>
-                            <div class="character"> yòng </div>
+                            <div class="character" onClick={() => this.playAudio('yōng')}> yōng </div>
+                            <div class="character" onClick={() => this.playAudio('yóng')}> yóng </div>
+                            <div class="character" onClick={() => this.playAudio('yǒng')}> yǒng </div>
+                            <div class="character" onClick={() => this.playAudio('yòng')}> yòng </div>
                         </div>
                     </th> 
                 </tr>
@@ -97,53 +98,53 @@ class Table2 extends React.Component {
                     <th class="start"> b </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> bī </div>
-                            <div class="character"> bí </div>
-                            <div class="character"> bǐ </div>
-                            <div class="character"> bì </div>
+                            <div class="character" onClick={() => this.playAudio('bī')}> bī </div>
+                            <div class="character" onClick={() => this.playAudio('bí')}> bí </div>
+                            <div class="character" onClick={() => this.playAudio('bǐ')}> bǐ </div>
+                            <div class="character" onClick={() => this.playAudio('bì')}> bì </div>
                         </div>
                     </th>                        
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> biāo </div>
-                            <div class="character"> biáo </div>
-                            <div class="character"> biǎo </div>
-                            <div class="character"> biào </div>
+                            <div class="character" onClick={() => this.playAudio('biāo')}> biāo </div>
+                            <div class="character" onClick={() => this.playAudio('biáo')}> biáo </div>
+                            <div class="character" onClick={() => this.playAudio('biǎo')}> biǎo </div>
+                            <div class="character" onClick={() => this.playAudio('biào')}> biào </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> biē </div>
-                            <div class="character"> bié </div>
-                            <div class="character"> biě </div>
-                            <div class="character"> biè </div>
+                            <div class="character" onClick={() => this.playAudio('biē')}> biē </div>
+                            <div class="character" onClick={() => this.playAudio('bié')}> bié </div>
+                            <div class="character" onClick={() => this.playAudio('biě')}> biě </div>
+                            <div class="character" onClick={() => this.playAudio('biè')}> biè </div>
                         </div>
                     </th>
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> biān </div>
-                            <div class="character"> bián </div>
-                            <div class="character"> biǎn </div>
-                            <div class="character"> biàn </div>
+                            <div class="character" onClick={() => this.playAudio('biān')}> biān </div>
+                            <div class="character" onClick={() => this.playAudio('bián')}> bián </div>
+                            <div class="character" onClick={() => this.playAudio('biǎn')}> biǎn </div>
+                            <div class="character" onClick={() => this.playAudio('biàn')}> biàn </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> bīn </div>
-                            <div class="character"> bín </div>
-                            <div class="character"> bǐn </div>
-                            <div class="character"> bìn </div>
+                            <div class="character" onClick={() => this.playAudio('bīn')}> bīn </div>
+                            <div class="character" onClick={() => this.playAudio('bín')}> bín </div>
+                            <div class="character" onClick={() => this.playAudio('bǐn')}> bǐn </div>
+                            <div class="character" onClick={() => this.playAudio('bìn')}> bìn </div>
                         </div>
                     </th> 
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> bīng </div>
-                            <div class="character"> bíng </div>
-                            <div class="character"> bǐng </div>
-                            <div class="character"> bìng </div>
+                            <div class="character" onClick={() => this.playAudio('bīng')}> bīng </div>
+                            <div class="character" onClick={() => this.playAudio('bíng')}> bíng </div>
+                            <div class="character" onClick={() => this.playAudio('bǐng')}> bǐng </div>
+                            <div class="character" onClick={() => this.playAudio('bìng')}> bìng </div>
                         </div>
                     </th>  
                     <th><div class="blank"></div></th>
@@ -152,53 +153,53 @@ class Table2 extends React.Component {
                     <th class="start"> p </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> pī </div>
-                            <div class="character"> pí </div>
-                            <div class="character"> pǐ </div>
-                            <div class="character"> pì </div>
+                            <div class="character" onClick={() => this.playAudio('pī')}> pī </div>
+                            <div class="character" onClick={() => this.playAudio('pí')}> pí </div>
+                            <div class="character" onClick={() => this.playAudio('pǐ')}> pǐ </div>
+                            <div class="character" onClick={() => this.playAudio('pì')}> pì </div>
                         </div>
                     </th>                        
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> piāo </div>
-                            <div class="character"> piáo </div>
-                            <div class="character"> piǎo </div>
-                            <div class="character"> piào </div>
+                            <div class="character" onClick={() => this.playAudio('piāo')}> piāo </div>
+                            <div class="character" onClick={() => this.playAudio('piáo')}> piáo </div>
+                            <div class="character" onClick={() => this.playAudio('piǎo')}> piǎo </div>
+                            <div class="character" onClick={() => this.playAudio('piào')}> piào </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> piē </div>
-                            <div class="character"> pié </div>
-                            <div class="character"> piě </div>
-                            <div class="character"> piè </div>
+                            <div class="character" onClick={() => this.playAudio('piē')}> piē </div>
+                            <div class="character" onClick={() => this.playAudio('pié')}> pié </div>
+                            <div class="character" onClick={() => this.playAudio('piě')}> piě </div>
+                            <div class="character" onClick={() => this.playAudio('piè')}> piè </div>
                         </div>
                     </th>
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> piān </div>
-                            <div class="character"> pián </div>
-                            <div class="character"> piǎn </div>
-                            <div class="character"> piàn </div>
+                            <div class="character" onClick={() => this.playAudio('piān')}> piān </div>
+                            <div class="character" onClick={() => this.playAudio('pián')}> pián </div>
+                            <div class="character" onClick={() => this.playAudio('piǎn')}> piǎn </div>
+                            <div class="character" onClick={() => this.playAudio('piàn')}> piàn </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> pīn </div>
-                            <div class="character"> pín </div>
-                            <div class="character"> pǐn </div>
-                            <div class="character"> pìn </div>
+                            <div class="character" onClick={() => this.playAudio('pīn')}> pīn </div>
+                            <div class="character" onClick={() => this.playAudio('pín')}> pín </div>
+                            <div class="character" onClick={() => this.playAudio('pǐn')}> pǐn </div>
+                            <div class="character" onClick={() => this.playAudio('pìn')}> pìn </div>
                         </div>
                     </th> 
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> pīng </div>
-                            <div class="character"> píng </div>
-                            <div class="character"> pǐng </div>
-                            <div class="character"> pìng </div>
+                            <div class="character" onClick={() => this.playAudio('pīng')}> pīng </div>
+                            <div class="character" onClick={() => this.playAudio('píng')}> píng </div>
+                            <div class="character" onClick={() => this.playAudio('pǐng')}> pǐng </div>
+                            <div class="character" onClick={() => this.playAudio('pìng')}> pìng </div>
                         </div>
                     </th>  
                     <th><div class="blank"></div></th>
@@ -207,60 +208,60 @@ class Table2 extends React.Component {
                     <th class="start"> m </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> mī </div>
-                            <div class="character"> mí </div>
-                            <div class="character"> mǐ </div>
-                            <div class="character"> mì </div>
+                            <div class="character" onClick={() => this.playAudio('mī')}> mī </div>
+                            <div class="character" onClick={() => this.playAudio('mí')}> mí </div>
+                            <div class="character" onClick={() => this.playAudio('mǐ')}> mǐ </div>
+                            <div class="character" onClick={() => this.playAudio('mì')}> mì </div>
                         </div>
                     </th>                        
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> miāo </div>
-                            <div class="character"> miáo </div>
-                            <div class="character"> miǎo </div>
-                            <div class="character"> miào </div>
+                            <div class="character" onClick={() => this.playAudio('miāo')}> miāo </div>
+                            <div class="character" onClick={() => this.playAudio('miáo')}> miáo </div>
+                            <div class="character" onClick={() => this.playAudio('miǎo')}> miǎo </div>
+                            <div class="character" onClick={() => this.playAudio('miào')}> miào </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> miē </div>
-                            <div class="character"> mié </div>
-                            <div class="character"> miě </div>
-                            <div class="character"> miè </div>
+                            <div class="character" onClick={() => this.playAudio('miē')}> miē </div>
+                            <div class="character" onClick={() => this.playAudio('mié')}> mié </div>
+                            <div class="character" onClick={() => this.playAudio('miě')}> miě </div>
+                            <div class="character" onClick={() => this.playAudio('miè')}> miè </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> mīu </div>
-                            <div class="character"> míu </div>
-                            <div class="character"> mǐu </div>
-                            <div class="character"> mìu </div>
+                            <div class="character" onClick={() => this.playAudio('mīu')}> mīu </div>
+                            <div class="character" onClick={() => this.playAudio('míu')}> míu </div>
+                            <div class="character" onClick={() => this.playAudio('mǐu')}> mǐu </div>
+                            <div class="character" onClick={() => this.playAudio('mìu')}> mìu </div>
                         </div>
                     </th> 
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> miān </div>
-                            <div class="character"> mián </div>
-                            <div class="character"> miǎn </div>
-                            <div class="character"> miàn </div>
+                            <div class="character" onClick={() => this.playAudio('miān')}> miān </div>
+                            <div class="character" onClick={() => this.playAudio('mián')}> mián </div>
+                            <div class="character" onClick={() => this.playAudio('miǎn')}> miǎn </div>
+                            <div class="character" onClick={() => this.playAudio('miàn')}> miàn </div>
                         </div>
                     </th>
                     <th>
                         <div class="toneGrid">
-                            <div class="character"> mīn </div>
-                            <div class="character"> mín </div>
-                            <div class="character"> mǐn </div>
-                            <div class="character"> mìn </div>
+                            <div class="character" onClick={() => this.playAudio('mīn')}> mīn </div>
+                            <div class="character" onClick={() => this.playAudio('mín')}> mín </div>
+                            <div class="character" onClick={() => this.playAudio('mǐn')}> mǐn </div>
+                            <div class="character" onClick={() => this.playAudio('mìn')}> mìn </div>
                         </div>
                     </th> 
                     <th><div class="blank"></div></th>
                     <th>
                         <div class="toneGridBig">
-                            <div class="character"> mīng </div>
-                            <div class="character"> míng </div>
-                            <div class="character"> mǐng </div>
-                            <div class="character"> mìng </div>
+                            <div class="character" onClick={() => this.playAudio('mīng')}> mīng </div>
+                            <div class="character" onClick={() => this.playAudio('míng')}> míng </div>
+                            <div class="character" onClick={() => this.playAudio('mǐng')}> mǐng </div>
+                            <div class="character" onClick={() => this.playAudio('mìng')}> mìng </div>
                         </div>
                     </th>  
                     <th><div class="blank"></div></th>

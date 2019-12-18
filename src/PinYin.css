@@ -22,6 +22,7 @@ tr > th {
 .start{
     width: 40px;
 }
+
 .start, .letter_head > th {
     font-size: calc(10px + 2vmin);
     font-weight: bold;
