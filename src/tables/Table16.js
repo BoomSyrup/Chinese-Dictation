@@ -1,219 +1,220 @@
 import React from 'react';
 import '../PinYin.css';
-import PinYin from '../PinYin';
+import {playAudio} from '../audio';
 
-class Table16 extends PinYin {
+
+class Table16 extends React.Component {
     render() {
         return (
             <table>
                 <thead>
-                    <tr class="letter_head">
-                        <th class="start"></th><th>u</th><th>ua</th><th>uo</th><th>uai</th><th>ui*</th><th>uan</th><th>un*</th><th>uang</th><th>ueng</th>
+                    <tr className="letter_head">
+                        <th className="start"></th><th>u</th><th>ua</th><th>uo</th><th>uai</th><th>ui*</th><th>uan</th><th>un*</th><th>uang</th><th>ueng</th>
                     </tr> 
                 </thead>
                 <tr>
-                    <th class="start"> g </th>
+                    <th className="start"> g </th>
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gū </div>
-                            <div class="character"> gú </div>
-                            <div class="character"> gǔ </div>
-                            <div class="character"> gù </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gū')}> gū </div>
+                            <div className="character" onClick={() => playAudio('gú')}> gú </div>
+                            <div className="character" onClick={() => playAudio('gǔ')}> gǔ </div>
+                            <div className="character" onClick={() => playAudio('gù')}> gù </div>
                         </div>
                     </th>                        
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gūa </div>
-                            <div class="character"> gúa </div>
-                            <div class="character"> gǔa </div>
-                            <div class="character"> gùa </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gūa')}> gūa </div>
+                            <div className="character" onClick={() => playAudio('gúa')}> gúa </div>
+                            <div className="character" onClick={() => playAudio('gǔa')}> gǔa </div>
+                            <div className="character" onClick={() => playAudio('gùa')}> gùa </div>
                         </div>
                     </th>   
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> guō </div>
-                            <div class="character"> guó </div>
-                            <div class="character"> guǒ </div>
-                            <div class="character"> guò </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('guō')}> guō </div>
+                            <div className="character" onClick={() => playAudio('guó')}> guó </div>
+                            <div className="character" onClick={() => playAudio('guǒ')}> guǒ </div>
+                            <div className="character" onClick={() => playAudio('guò')}> guò </div>
                         </div>
                     </th>
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> gūai </div>
-                            <div class="character"> gúai </div>
-                            <div class="character"> gǔai </div>
-                            <div class="character"> gùai </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('gūai')}> gūai </div>
+                            <div className="character" onClick={() => playAudio('gúai')}> gúai </div>
+                            <div className="character" onClick={() => playAudio('gǔai')}> gǔai </div>
+                            <div className="character" onClick={() => playAudio('gùai')}> gùai </div>
                         </div>
                     </th>  
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gūi </div>
-                            <div class="character"> gúi </div>
-                            <div class="character"> gǔi </div>
-                            <div class="character"> gùi </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gūi')}> gūi </div>
+                            <div className="character" onClick={() => playAudio('gúi')}> gúi </div>
+                            <div className="character" onClick={() => playAudio('gǔi')}> gǔi </div>
+                            <div className="character" onClick={() => playAudio('gùi')}> gùi </div>
                         </div>
                     </th>     
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> guān </div>
-                            <div class="character"> guán </div>
-                            <div class="character"> guǎn </div>
-                            <div class="character"> guàn </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('guān')}> guān </div>
+                            <div className="character" onClick={() => playAudio('guán')}> guán </div>
+                            <div className="character" onClick={() => playAudio('guǎn')}> guǎn </div>
+                            <div className="character" onClick={() => playAudio('guàn')}> guàn </div>
                         </div>
                     </th>
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gūn </div>
-                            <div class="character"> gún </div>
-                            <div class="character"> gǔn </div>
-                            <div class="character"> gùn </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gūn')}> gūn </div>
+                            <div className="character" onClick={() => playAudio('gún')}> gún </div>
+                            <div className="character" onClick={() => playAudio('gǔn')}> gǔn </div>
+                            <div className="character" onClick={() => playAudio('gùn')}> gùn </div>
                         </div>
                     </th>    
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> guāng </div>
-                            <div class="character"> guáng </div>
-                            <div class="character"> guǎng </div>
-                            <div class="character"> guàng </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('guāng')}> guāng </div>
+                            <div className="character" onClick={() => playAudio('guáng')}> guáng </div>
+                            <div className="character" onClick={() => playAudio('guǎng')}> guǎng </div>
+                            <div className="character" onClick={() => playAudio('guàng')}> guàng </div>
                         </div>
                     </th>
-                    <th><div class="blank"></div></th>
+                    <th><div className="blank"></div></th>
                 </tr>
                 <tr>
-                    <th class="start"> g </th>
+                    <th className="start"> g </th>
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gū </div>
-                            <div class="character"> gú </div>
-                            <div class="character"> gǔ </div>
-                            <div class="character"> gù </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gū')}> gū </div>
+                            <div className="character" onClick={() => playAudio('gú')}> gú </div>
+                            <div className="character" onClick={() => playAudio('gǔ')}> gǔ </div>
+                            <div className="character" onClick={() => playAudio('gù')}> gù </div>
                         </div>
                     </th>                        
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gūa </div>
-                            <div class="character"> gúa </div>
-                            <div class="character"> gǔa </div>
-                            <div class="character"> gùa </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gūa')}> gūa </div>
+                            <div className="character" onClick={() => playAudio('gúa')}> gúa </div>
+                            <div className="character" onClick={() => playAudio('gǔa')}> gǔa </div>
+                            <div className="character" onClick={() => playAudio('gùa')}> gùa </div>
                         </div>
                     </th>   
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> guō </div>
-                            <div class="character"> guó </div>
-                            <div class="character"> guǒ </div>
-                            <div class="character"> guò </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('guō')}> guō </div>
+                            <div className="character" onClick={() => playAudio('guó')}> guó </div>
+                            <div className="character" onClick={() => playAudio('guǒ')}> guǒ </div>
+                            <div className="character" onClick={() => playAudio('guò')}> guò </div>
                         </div>
                     </th>
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> gūai </div>
-                            <div class="character"> gúai </div>
-                            <div class="character"> gǔai </div>
-                            <div class="character"> gùai </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('gūai')}> gūai </div>
+                            <div className="character" onClick={() => playAudio('gúai')}> gúai </div>
+                            <div className="character" onClick={() => playAudio('gǔai')}> gǔai </div>
+                            <div className="character" onClick={() => playAudio('gùai')}> gùai </div>
                         </div>
                     </th>  
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gūi </div>
-                            <div class="character"> gúi </div>
-                            <div class="character"> gǔi </div>
-                            <div class="character"> gùi </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gūi')}> gūi </div>
+                            <div className="character" onClick={() => playAudio('gúi')}> gúi </div>
+                            <div className="character" onClick={() => playAudio('gǔi')}> gǔi </div>
+                            <div className="character" onClick={() => playAudio('gùi')}> gùi </div>
                         </div>
                     </th>     
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> guān </div>
-                            <div class="character"> guán </div>
-                            <div class="character"> guǎn </div>
-                            <div class="character"> guàn </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('guān')}> guān </div>
+                            <div className="character" onClick={() => playAudio('guán')}> guán </div>
+                            <div className="character" onClick={() => playAudio('guǎn')}> guǎn </div>
+                            <div className="character" onClick={() => playAudio('guàn')}> guàn </div>
                         </div>
                     </th>
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> gūn </div>
-                            <div class="character"> gún </div>
-                            <div class="character"> gǔn </div>
-                            <div class="character"> gùn </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('gūn')}> gūn </div>
+                            <div className="character" onClick={() => playAudio('gún')}> gún </div>
+                            <div className="character" onClick={() => playAudio('gǔn')}> gǔn </div>
+                            <div className="character" onClick={() => playAudio('gùn')}> gùn </div>
                         </div>
                     </th>    
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> guāng </div>
-                            <div class="character"> guáng </div>
-                            <div class="character"> guǎng </div>
-                            <div class="character"> guàng </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('guāng')}> guāng </div>
+                            <div className="character" onClick={() => playAudio('guáng')}> guáng </div>
+                            <div className="character" onClick={() => playAudio('guǎng')}> guǎng </div>
+                            <div className="character" onClick={() => playAudio('guàng')}> guàng </div>
                         </div>
                     </th>
-                    <th><div class="blank"></div></th>
+                    <th><div className="blank"></div></th>
                 </tr>
                 <tr>
-                    <th class="start"> k </th>
+                    <th className="start"> k </th>
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> kū </div>
-                            <div class="character"> kú </div>
-                            <div class="character"> kǔ </div>
-                            <div class="character"> kù </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('kū')}> kū </div>
+                            <div className="character" onClick={() => playAudio('kú')}> kú </div>
+                            <div className="character" onClick={() => playAudio('kǔ')}> kǔ </div>
+                            <div className="character" onClick={() => playAudio('kù')}> kù </div>
                         </div>
                     </th>                        
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> kūa </div>
-                            <div class="character"> kúa </div>
-                            <div class="character"> kǔa </div>
-                            <div class="character"> kùa </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('kūa')}> kūa </div>
+                            <div className="character" onClick={() => playAudio('kúa')}> kúa </div>
+                            <div className="character" onClick={() => playAudio('kǔa')}> kǔa </div>
+                            <div className="character" onClick={() => playAudio('kùa')}> kùa </div>
                         </div>
                     </th>   
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> kuō </div>
-                            <div class="character"> kuó </div>
-                            <div class="character"> kuǒ </div>
-                            <div class="character"> kuò </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('kuō')}> kuō </div>
+                            <div className="character" onClick={() => playAudio('kuó')}> kuó </div>
+                            <div className="character" onClick={() => playAudio('kuǒ')}> kuǒ </div>
+                            <div className="character" onClick={() => playAudio('kuò')}> kuò </div>
                         </div>
                     </th>
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> kūai </div>
-                            <div class="character"> kúai </div>
-                            <div class="character"> kǔai </div>
-                            <div class="character"> kùai </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('kūai')}> kūai </div>
+                            <div className="character" onClick={() => playAudio('kúai')}> kúai </div>
+                            <div className="character" onClick={() => playAudio('kǔai')}> kǔai </div>
+                            <div className="character" onClick={() => playAudio('kùai')}> kùai </div>
                         </div>
                     </th>  
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> kūi </div>
-                            <div class="character"> kúi </div>
-                            <div class="character"> kǔi </div>
-                            <div class="character"> kùi </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('kūi')}> kūi </div>
+                            <div className="character" onClick={() => playAudio('kúi')}> kúi </div>
+                            <div className="character" onClick={() => playAudio('kǔi')}> kǔi </div>
+                            <div className="character" onClick={() => playAudio('kùi')}> kùi </div>
                         </div>
                     </th>     
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> kuān </div>
-                            <div class="character"> kuán </div>
-                            <div class="character"> kuǎn </div>
-                            <div class="character"> kuàn </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('kuān')}> kuān </div>
+                            <div className="character" onClick={() => playAudio('kuán')}> kuán </div>
+                            <div className="character" onClick={() => playAudio('kuǎn')}> kuǎn </div>
+                            <div className="character" onClick={() => playAudio('kuàn')}> kuàn </div>
                         </div>
                     </th>
                     <th>
-                        <div class="toneGrid">
-                            <div class="character"> kūn </div>
-                            <div class="character"> kún </div>
-                            <div class="character"> kǔn </div>
-                            <div class="character"> kùn </div>
+                        <div className="toneGrid">
+                            <div className="character" onClick={() => playAudio('kūn')}> kūn </div>
+                            <div className="character" onClick={() => playAudio('kún')}> kún </div>
+                            <div className="character" onClick={() => playAudio('kǔn')}> kǔn </div>
+                            <div className="character" onClick={() => playAudio('kùn')}> kùn </div>
                         </div>
                     </th>    
                     <th>
-                        <div class="toneGridBig">
-                            <div class="character"> kuāng </div>
-                            <div class="character"> kuáng </div>
-                            <div class="character"> kuǎng </div>
-                            <div class="character"> kuàng </div>
+                        <div className="toneGridBig">
+                            <div className="character" onClick={() => playAudio('kuāng')}> kuāng </div>
+                            <div className="character" onClick={() => playAudio('kuáng')}> kuáng </div>
+                            <div className="character" onClick={() => playAudio('kuǎng')}> kuǎng </div>
+                            <div className="character" onClick={() => playAudio('kuàng')}> kuàng </div>
                         </div>
                     </th>
-                    <th><div class="blank"></div></th>
+                    <th><div className="blank"></div></th>
                 </tr>
             </table>
         );

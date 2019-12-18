@@ -31,12 +31,6 @@ class PinYin extends React.Component {
         }));
     }
 
-    playAudio(thing) {
-        //const poop = new Audio('../audio/'+ thing +'.ogg');
-        //poop.play();
-        console.log(thing )
-    }
-
     toRender(param) {
         switch(param) {
             case 1 : return (                      
@@ -87,6 +81,9 @@ class PinYin extends React.Component {
             case 16: return (
                 <Table16 />
             );
+            default: return (
+                <Table1 />
+            );
         } 
     }
     render() {
@@ -95,40 +92,40 @@ class PinYin extends React.Component {
             <thead>
                 {this.toRender(this.state.renderGroup)}
             </thead>
-            <div class="group_menu">
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(1)}>b p m f - Basic Endings</button>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(2)}>b p m f - i Endings</button>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(3)}>b p m f - u Endings</button>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(4)}>b p m f - ü Endings</button>
+            <div className="group_menu">
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(1)}>b p m f - Basic Endings</button>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(2)}>b p m f - i Endings</button>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(3)}>b p m f - u Endings</button>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(4)}>b p m f - ü Endings</button>
 
 
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(5)}>d t n l - Basic Endings</button>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(6)}>d t n l - i Endings</button>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(7)}>d t n l - u Endings</button>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(8)}>d t n l - ü Endings</button>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(5)}>d t n l - Basic Endings</button>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(6)}>d t n l - i Endings</button>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(7)}>d t n l - u Endings</button>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(8)}>d t n l - ü Endings</button>
 
 
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(9)}>z c s - Basic Endings</button>
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(10)}>z c s - u Endings</button>
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(9)}>z c s - Basic Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(10)}>z c s - u Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
 
 
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton" onClick={() => this.clickTable(11)}>zh ch sh r - Basic Endings</button>
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton"> blank </button> </div>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton" onClick={() => this.clickTable(12)}>zh ch sh r - u Endings</button>
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton" onClick={() => this.clickTable(11)}>zh ch sh r - Basic Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton" onClick={() => this.clickTable(12)}>zh ch sh r - u Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red" id="lastButton"> blank </button> </div>
 
 
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(13)}>j q x - i Endings</button>
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(14)}>j q x - ü Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(13)}>j q x - i Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(14)}>j q x - ü Endings</button>
 
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(15)}>g k h - Basic Endings</button>
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
-                <button class="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(16)}>g k h - u Endings</button>
-                <div class="blank_button"> <button class="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(15)}>g k h - Basic Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
+                <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(16)}>g k h - u Endings</button>
+                <div className="blank_button"> <button className="pushy__btn pushy__btn--sm pushy__btn--red"> blank </button> </div>
             </div>
             </>
         );
