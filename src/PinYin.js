@@ -89,9 +89,7 @@ class PinYin extends React.Component {
     render() {
         return (
             <>
-            <thead>
-                {this.toRender(this.state.renderGroup)}
-            </thead>
+            {this.toRender(this.state.renderGroup)}
             <div className="group_menu">
                 <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(1)}>b p m f - Basic Endings</button>
                 <button className="pushy__btn pushy__btn--sm pushy__btn--red" onClick={() => this.clickTable(2)}>b p m f - i Endings</button>
